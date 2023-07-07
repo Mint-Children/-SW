@@ -16,7 +16,7 @@ int main() {
 	getchar();
 
 	printf("문자열을 입력하시오: ");
-	gets_s(cipher, sizeof(cipher), stdin);
+	scanf("%s", cipher);
 
 	if (num == 1)
 		encrypt(cipher, shift);
